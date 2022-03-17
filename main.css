@@ -1,0 +1,116 @@
+nav {
+    margin-left: auto;
+    background: #8c8c8c;
+    border-radius: 5px;
+    height: 35px;
+    max-width: wrap;
+}
+
+menu {
+    list-style: none;
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: auto;
+}
+
+menu li {
+    display: inline-block;
+    background: #cdcdcd;
+    width: 100px;
+    height: 35px;
+    border-right: solid 3px #eeeeee;
+    border-left: solid 3px #eeeeee;
+}
+
+menu li:hover {
+    background: #eeeeee;
+    color: #ff66f6;
+    border-right: solid 3px #cdcdcd;
+    border-left: solid 3px #cdcdcd;
+}
+
+menu li a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 120px;
+    color: #000000;
+    text-decoration: none;
+}
+
+h1 {
+    text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
+    padding-top: 1%;
+    margin-top: 60px;
+    align-self: center;
+}
+
+p {
+    text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
+    padding-top: 1%;
+}
+
+h2 {
+    text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
+    padding-top: 1%;
+    size: 30px;
+}
+
+h3 {
+    text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
+    padding-top: 1%;
+    size: 30px;
+}
+
+h2,
+h3 {
+    display: inline;
+    width: 50px;
+    height: 60px;
+}
+
+iframe {
+    outline: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 5px;
+    margin-top: 5%;
+}
+
+footer {
+    align-self: center;
+    margin-bottom: 4px;
+    margin-top: 150px;
+}
+
+div.Music {
+    float: left;
+    display: contents;
+}
+
+div.Video {
+    display: inline;
+    float: right;
+}
+
+.Yandex {
+    float: left;
+    display: contents;
+    border-right: 20px;
+}
+
+.Youtube {
+    float: right;
+    display: contents;
+    border-left: 20px;
+}
+
+.Content {
+    display: inline;
+    width: 1310px;
+}
+
+.Latest {
+    display: inline;
+    width: 1310px;
+    justify-content: space-between;
+}
